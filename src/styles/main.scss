@@ -1,0 +1,14 @@
+@import "./colors.scss";
+@import "./pagination.scss";
+@import "./loading.scss";
+@import "./person.scss";
+
+.App {
+  background: #f7ff66;
+  min-height: 100vh;
+}
+.navbar {
+  background-color: $dark;
+  text-align: center;
+  justify-content: center;
+}

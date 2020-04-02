@@ -1,0 +1,17 @@
+.person {
+  border-radius: 5px;
+  overflow: hidden;
+  // border: 1px solid $dark;
+  &_wrapper {
+    border-radius: 5px;
+    border: 1px solid $dark;
+    padding: 0;
+  }
+  &_name {
+    background-color: $dark;
+    color: $main;
+  }
+  &_details {
+    padding: 1em;
+  }
+}
